@@ -1,11 +1,18 @@
-import 'antd/dist/antd.css';
-import './App.scss';
-import Header from './components/header';
+import "antd/dist/antd.css";
+import "./App.scss";
+import { Layout } from "antd";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Home from "./pages/home";
 
 function App() {
   return (
     <>
-      <Header />
+      <Layout>
+        <Header>Header</Header>
+        <Home />
+        <Footer>Footer</Footer>
+      </Layout>
     </>
   );
 }
