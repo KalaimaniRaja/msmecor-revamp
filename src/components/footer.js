@@ -3,6 +3,7 @@ import { Row, Col } from "antd";
 import PlayStore from "../assets/img/play-store.png";
 import AppStore from "../assets/img/app-store.png";
 import Logo from "../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   render() {
@@ -14,12 +15,16 @@ class Footer extends React.Component {
               <img className="logo" src={Logo} alt="" />
             </Col>
           </Row>
-          <Row>
-            <Col md={{ span: 12 }} className="text-md-end">
-              <img src={PlayStore} alt="" />
+          <Row className="app-link mt-4">
+            <Col md={{ span: 12 }} className="text-md-end pe-1">
+              <Link to="/login">
+                <img src={PlayStore} alt="" />
+              </Link>
             </Col>
-            <Col md={{ span: 12 }} className="text-md-start">
-              <img src={AppStore} alt="" />
+            <Col md={{ span: 12 }} className="text-md-start ps-1">
+              <Link to="/login">
+                <img src={AppStore} alt="" />
+              </Link>
             </Col>
           </Row>
         </div>
