@@ -1,36 +1,51 @@
 @import "~bootstrap/scss/bootstrap";
 
+html,
+body {
+  height: auto;
+}
+
+.ant-layout {
+    background: none;   
+}
+
 .btn {
-    padding: 5px 10px;
-    font-size: 14px;
-    line-height: 26px;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 26px;
 
-    &.btn-primary {
-        background: #5c7d0b;
-        color: #fff;
+  &.btn-primary {
+    background: #5c7d0b;
+    color: #fff;
 
-        &:hover {
-            background: #425a05;
-        }
+    &:hover {
+      background: #425a05;
     }
+  }
 }
 
 .navbar-brand {
-    img {
-        width: 150px;
-    }
+  img {
+    width: 150px;
+  }
 }
 
 .navbar {
-    .nav-link {
-        text-transform: capitalize;
-        color: #000;
-        &.btn {
-            color: #fff;
-        }
+  .nav-link {
+    text-transform: capitalize;
+    color: #000;
+    &.btn {
+      color: #fff;
     }
+  }
 }
 
 .main-banner {
-    background: url(./assets/img/banner.jpg) no-repeat center / cover;
+  background: url(./assets/img/banner.jpg) no-repeat center / cover;
+}
+
+.footer-content {
+  .logo {
+    width: 150px;
+  }
 }
