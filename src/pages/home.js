@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -22,6 +22,42 @@ class Home extends React.Component {
           </div>
         </div>
 
+        <div className="video-wrap my-4 my-md-5 py-4 py-md-5">
+          <div className="video-link">
+            <div className="container">
+              <Row>
+                <Col xs={{ span: 24 }} md={{ span: 8 }}>
+                  <label>In the News:</label>
+                </Col>
+                <Col xs={{ span: 24 }} md={{ span: 8 }}>
+                  <label>MSM eCOR in Electrical line</label>
+                </Col>
+                <Col xs={{ span: 24 }} md={{ span: 8 }}>
+                  <label>MSM eCOR - PCMHA Covid Screening</label>
+                </Col>
+              </Row>
+            </div>
+          </div>
+
+          <div className="video-inner-wrap mt-4 mt-md-5">
+            <div className="container">
+              <Row>
+                <Col
+                  xs={{ span: 24 }}
+                  md={{ span: 12 }}
+                  xl={{ span: 14 }}
+                  className="m-auto"
+                >
+                  <iframe
+                    className="w-100"
+                    src="https://www.facebook.com/plugins/video.php?height=414&href=https%3A%2F%2Fwww.facebook.com%2FMSMeCOR%2Fvideos%2F680613132520752%2F&show_text=false"
+                  ></iframe>
+                </Col>
+              </Row>
+            </div>
+          </div>
+        </div>
+
         <div className="container py-md-5">
           <Row>
             <Col>
@@ -31,7 +67,7 @@ class Home extends React.Component {
                 can have on your business.
               </p>
               <Router>
-              <Link to="/register"></Link>
+                <Link to="/register"></Link>
               </Router>
             </Col>
           </Row>

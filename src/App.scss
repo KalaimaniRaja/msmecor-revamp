@@ -6,7 +6,7 @@ body {
 }
 
 .ant-layout {
-    background: none;   
+  background: none;
 }
 
 .btn {
@@ -30,6 +30,12 @@ body {
     &:hover {
       background: #425a05;
     }
+  }
+}
+
+.navbar {
+  .logo {
+    width: 150px;
   }
 }
 
@@ -61,4 +67,10 @@ body {
 
 .register-info {
   background: #eee;
+}
+
+.video-inner-wrap {
+  iframe {
+    width: 100%;
+  }
 }
