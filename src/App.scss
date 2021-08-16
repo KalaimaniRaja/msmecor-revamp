@@ -210,4 +210,39 @@ a {
     font-size: 12px;
     line-height: 25px;
   }
+
+  .banner-content {
+    h2 {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 4px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 22px;
+    }
+
+    span {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  .main-info-list {
+    img {
+      width: 80px;
+    }
+
+    h3 {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 4px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 22px;
+    }
+  }
 }

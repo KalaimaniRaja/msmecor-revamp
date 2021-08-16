@@ -13,7 +13,7 @@ import Client5 from "../assets/img/TW.png";
 class Home extends React.Component {
   render() {
     return (
-      <div className="content">
+      <main>
         <div className="main-banner py-4 py-md-5">
           <div className="container py-md-4 py-lg-5">
             <Row>
@@ -98,27 +98,52 @@ class Home extends React.Component {
         <div className="client-info my-lg-4 py-4">
           <div className="container">
             <Row type="flex" justify="center" className="text-center">
-              <Col xs={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} className="p-3">
+              <Col
+                xs={{ span: 12 }}
+                md={{ span: 8 }}
+                lg={{ span: 4 }}
+                className="p-3"
+              >
                 <div className="client-info-list h-100 d-flex align-items-center justify-content-center">
                   <img src={Client1} alt="" />
                 </div>
               </Col>
-              <Col xs={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} className="p-3">
+              <Col
+                xs={{ span: 12 }}
+                md={{ span: 8 }}
+                lg={{ span: 4 }}
+                className="p-3"
+              >
                 <div className="client-info-list h-100 d-flex align-items-center justify-content-center">
                   <img src={Client2} alt="" />
                 </div>
               </Col>
-              <Col xs={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} className="p-3">
+              <Col
+                xs={{ span: 12 }}
+                md={{ span: 8 }}
+                lg={{ span: 4 }}
+                className="p-3"
+              >
                 <div className="client-info-list h-100 d-flex align-items-center justify-content-center">
                   <img src={Client3} alt="" />
                 </div>
               </Col>
-              <Col xs={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} className="p-3">
+              <Col
+                xs={{ span: 12 }}
+                md={{ span: 8 }}
+                lg={{ span: 4 }}
+                className="p-3"
+              >
                 <div className="client-info-list h-100 d-flex align-items-center justify-content-center">
                   <img src={Client4} alt="" />
                 </div>
               </Col>
-              <Col xs={{ span: 12 }} md={{ span: 8 }} lg={{ span: 4 }} className="p-3">
+              <Col
+                xs={{ span: 12 }}
+                md={{ span: 8 }}
+                lg={{ span: 4 }}
+                className="p-3"
+              >
                 <div className="client-info-list h-100 d-flex align-items-center justify-content-center">
                   <img src={Client5} alt="" />
                 </div>
@@ -185,7 +210,7 @@ class Home extends React.Component {
             </Row>
           </div>
         </div>
-      </div>
+      </main>
     );
   }
 }
